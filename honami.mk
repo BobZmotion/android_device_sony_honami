@@ -40,10 +40,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/Heaven.ogg:system/media/audio/notifications/Heaven.ogg \
     $(LOCAL_PATH)/prebuilt/somebodys.ogg:system/media/audio/ringtones/somebodys.ogg
 
-# USB function switching
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/init.sony.usb.rc:root/init.sony.usb.rc
-
 # Audio
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/audio/mixer_paths.xml:system/etc/mixer_paths.xml
